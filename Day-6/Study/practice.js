@@ -49,3 +49,4 @@ console.log(splt.reverse());
 
 const splt1 = data.split("").reverse().join("");
 console.log(splt1);
+
