@@ -55,12 +55,19 @@ const results = (a) =>{
 const z = results(fun2);
 // console.log(z);
 
+// setTimeout(()=>{
+//   console.log("Annomnous function");  
+// }, 1000);
+
+console.log("first");
+
 setTimeout(() => {
     console.log("I am settime out");
-   clearInterval(interval);
-}, 10000);
+}, 0);
 
-let interval = setInterval(() => {
-    console.log("I am interval");
-}, 1000);
+console.log("second");
+
+// let interval = setInterval(() => {
+//     console.log("I am interval");
+// }, 1000);
 
