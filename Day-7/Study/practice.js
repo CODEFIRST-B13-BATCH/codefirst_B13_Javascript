@@ -91,3 +91,11 @@ setTimeout(callBack, 2000);
 setTimeout(() => {
     console.log("i'am call back function with arrow function");
 }, 3000);
+
+console.log("first");
+
+setTimeout(() => {
+    console.log("I am settime out");
+}, 0);
+
+console.log("second");
