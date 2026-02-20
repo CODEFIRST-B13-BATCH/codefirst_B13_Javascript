@@ -3,7 +3,6 @@ const playerInfo = {
     name:"Sachin",
     style:"right-hand-batsman",
     team:"India"
-
 }
 
 const info = JSON.stringify(playerInfo);
