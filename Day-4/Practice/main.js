@@ -79,18 +79,56 @@
 
 // 2. Write a program to Fiboneccis series
 
-let num = 7;
+// let num = 10;
 
-a = 0 ; b = 1;
+// a = 0 ; b = 1;
+// if( num == 0)
+// {
+//     console.log(0);
+// }
+// else
+// {
+// for( let i=1 ;i<=num; i++)
+// {
+//      console.log(a);
+//     let x = a + b;
+//     a = b;
+//     b = x ;
+// }
+// }
 
-for( let i=1 ;i<=num; i++)
-{
-     console.log(a);
-    let x = a + b;
-    a = b;
-    b = x ;
-     
-    
-}
+// wriet a program to cheack if year is leap year and not 
+
+// let a = 2024;
+
+// if(a % 4 == 0)
+// {
+//     console.log("Its leap year");
+// }
+// else
+// {
+//     console.log("it is not leap year");
+// }
+
+// write a program to calculate factorial number
 
 
+
+
+// let num = 10;
+
+// let fact = 1;
+
+// if( num == 0 )
+//     {
+//     console.log(fact = 1);
+// }
+// else
+// {
+// for(let i = 1 ; i <= num; i++)
+// {
+//     fact = fact * i;
+
+// }
+//    console.log(fact);
+// }

@@ -14,7 +14,7 @@ var test2 = 35;
 // (5+5) ? 11: 10;
 
 var test3 = 55;
-var test4 = 50;
+var test4 = 55;
 
 var result = (test3 == test4) ? 'Both are equal' : 'Both are not equal';
 
@@ -22,7 +22,7 @@ console.log(result);
 
 let city = "Pune"
 
-const response = (city === "Pune20") ? true : false;
+const response = (city === "Pune") ? true : false;
 console.log(response);
 
 // if(city === "Pune") {
