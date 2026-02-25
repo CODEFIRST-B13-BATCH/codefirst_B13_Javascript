@@ -1,9 +1,11 @@
-let str = "India is my country";
+ let str = "India is my country";
 
 // String Methods
 
 // 1. length
 console.log(str.length);
+
+
 
 // 2. toUpperCase()
 console.log(str.toUpperCase());
