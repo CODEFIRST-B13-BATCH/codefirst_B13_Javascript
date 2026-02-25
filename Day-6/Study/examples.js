@@ -51,4 +51,20 @@ let grade = students.map(item =>{
     });
     console.log(grade);
     
- 
+ var num = 153; // put your number here
+var temp = num;
+var add = 0;
+
+var power = num.toString().length;
+
+while (temp > 0) {
+  var digit = temp % 10;
+  add += digit ** power;
+  temp = Math.floor(temp / 10);
+}
+
+if (add === num) {
+  console.log(`${num} is an Armstrong number`);
+} else {
+  console.log(`${num} is not an Armstrong number`);
+}
