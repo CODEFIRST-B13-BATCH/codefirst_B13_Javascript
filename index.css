@@ -1,0 +1,13 @@
+.box{
+    color: black;
+    margin: auto;
+    border-radius: 300%;
+}
+.box1{
+    margin: auto;
+    background-color:blue;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    border-radius: 500%;
+}
