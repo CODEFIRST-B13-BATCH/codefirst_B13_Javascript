@@ -19,6 +19,8 @@ var :
 - can be re-declared.
 - can be updated/re-assigned.
 */
+
+// var _test = 100;
 var a = 10;
 // console.log(a);
 a = 20;
@@ -32,9 +34,9 @@ console.log(a);
 - cannot be re-declared.
 - can be updated/re-assigned.
 */
-let b = 10;
+let b = false;
 console.log(b);
-b = 20;  // reassign
+b = true;  // reassign
 console.log(b);
 // let b = true; // cannot be re-declared
 // console.log(b);
@@ -51,3 +53,4 @@ console.log(c);
 // console.log(c);
 // const c = true; // cannot be re-declared
 // console.log(c);
+
