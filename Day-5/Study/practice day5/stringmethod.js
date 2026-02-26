@@ -1,50 +1,41 @@
-let str = "India is my India country mystrery?";
+let str = "India is my country";
 
-// if(str.includes("India")) {
-//     console.log("The string contains the word 'India'.");
-// } else {
-//     console.log("The string does not contain the word 'India'.");
-// }
-
-// const isIndiaPresent = str.includes("India") ? 'India is present in the string' : 'India is not present in the string';
-// String Methods
-    
-// 1. length
+// 1. length of str
 console.log(str.length);
 
-// 2. toUpperCase()
+// 2. touppercase
 console.log(str.toUpperCase());
 
-// 3. toLowerCase()
+// 3. tolowercase
 console.log(str.toLowerCase());
 
-// 4. indexOf()
-console.log(str.indexOf("my")); // if not found it will return -1
+// 4. indexof
+console.log(str.indexOf('my'));  //  if not found it will return -1
 
-// 5. includes()
-console.log(str.includes("my")); // returns boolean value (true or false)
+// 5. includes
+console.log(str.includes('my')); // // returns boolean value (true or false)
 
-// 6. slice()
-console.log("Slice==> ",str.slice(0, 7)); // returns a substring from index 0 to 4 (5 is not included)
+// 6. slice
+console.log(str.slice(0,7)); //returns a substring from index 0 to 6 (7 is not included)
 
 // 7. split()
 console.log(str.split(" ")); // splits the string into an array of substrings based on the specified separator (in this case, a space)
 
-// 8. replace()
-console.log(str.replaceAll("?", "")); // replaces the first occurrence of the specified value with another value
+// 8.replace
+console.log(str.replace("India", "Pune")); // replaces the first occurrence of the specified value with another value
 
-// 9. trim()
+// 9.trim
 let str2 = "   Hello World!   ";
 console.log(str2.trim()); // removes whitespace from both ends of the string
 
-// 10. charAt()
-console.log("chatAt",str.charAt(2)); // returns the character at the specified index (in this case, index 0 which is 'I')
+// 10.charAt
+console.log(str.charAt(3)); // returns the character at the specified index (in this case, index 0 which is 'I')
 
 // 11. search()
-console.log(str.search("country")); // returns the index of the first occurrence of the specified value (in this case, "country" starts at index 14)
+console.log(str.search("my")); // returns the index of the first occurrence of the specified value (in this case, "country" starts at index 14)
 
 // 12. concat()
-let str3 = "I love programming.";
+let str3 = "I love India.";
 console.log(str.concat(" ", str3)); // concatenates two or more strings and returns a new string (in this case, it will concatenate str and str3 with a space in between)
 
 
