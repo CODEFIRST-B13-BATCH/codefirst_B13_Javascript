@@ -43,38 +43,10 @@ const res1 = (d,f)=>{
     console.log("Annomnous function");
     
 }
-// function :
  
-// simple function
-function methodCall() {
-    const x = 10;
-    const y = 20;
-    console.log("Additio of two number:", x+y);
-}
-// methodCall();
-
-// function with parameter
-function multiple(a, b) {
-    const result = a*b;
-    console.log("multiplication of number :", result);
-}
-// multiple(5,7);
-
-// function with default paramter
-function divide(a, b=2) {
-    const result = a/b;
-    console.log("multiplication of number :", result);
-}
-// divide(20);
-
-// function with return (returnable functions)
-
-function substraction(x,y) {
-    return x-y;
-}
-// const res = substraction(20,10);
-// console.log(res);
-
+ 
+ 
+ 
 // Arrow function
 const fun = () => {
     console.log("I am arrow function");
@@ -116,3 +88,4 @@ console.log("second");
 //     console.log("I am interval");
 // }, 1000);
 
+//impure function : every executime time output changes 
