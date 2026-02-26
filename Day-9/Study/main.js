@@ -1,4 +1,4 @@
-// Clouser : In clouser we can access outer function variable into inner function.
+//1  Clouser : In clouser we can access outer function variable into inner function.
 
 function outer() {
   let counter = 0;
@@ -12,7 +12,7 @@ function outer() {
 }
 // outer();
 
-// what is hoisting : we can use variable before its initialization (value update).
+// 2 what is hoisting : we can use variable before its initialization (value update).
 // console.log(test);
 // var test = 10;
 
@@ -50,35 +50,35 @@ function outer() {
 // fetchProduct().then((result)=>console.log(result))
 // .catch(error => console.log(error));
 
-// Async and await.
+// 3  Async and await.
 
-async function ecomProduct() {
-  console.log("Add to cart");
+// async function ecomProduct() {
+//   console.log("Add to cart");
 
-  const payment = await paymentDone();
-  console.log(payment);
+//   const payment = await paymentDone();
+//   console.log(payment);
 
-  console.log("order placed");
+//   console.log("order placed");
 
-  const orderRec = await orderReceived();
-  console.log(orderRec);
-}
-ecomProduct();
+//   const orderRec = await orderReceived();
+//   console.log(orderRec);
+// }
+// ecomProduct();
 
-function paymentDone() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("payment done");
-      reject("payment failed");
-    }, 600);
-  });
-}
+// function paymentDone() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("payment done");
+//       reject("payment failed");
+//     }, 600);
+//   });
+// }
 
-function orderReceived() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Order received");
-      reject("Order cancelled");
-    }, 300);
-  });
-}
+// function orderReceived() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("Order received");
+//       reject("Order cancelled");
+//     }, 300);
+//   });
+// }
