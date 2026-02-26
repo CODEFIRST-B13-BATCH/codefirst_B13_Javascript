@@ -7,19 +7,19 @@
 // console.log(10 / 20);
 // console.log(10 % 20);
 
-// let x = 10;
+let x = 10;
 
-// console.log(x++); // post increment --> first print then increment
+console.log(x++); // post increment --> first print then increment
 
-// console.log(++x); // pre increment --> first increment then print
+console.log(++x); // pre increment --> first increment then print
 // console.log(x--);
 
 // comparision operators:
 
-// let test = 10;
+let test = 10;
 
-// console.log(test == 10); // only value check
-// console.log(test === "10"); // value and data type check
+console.log(test == "10"); // only value check
+console.log(test === "10"); // value and data type check
 // console.log(test != 10); // not equal to
 // console.log(test > "10"); // greater than
 // console.log(test < "10"); // less than
@@ -42,9 +42,9 @@
 // c -= 3;
 
 // miscellaneous operators:
-// let d = 10;
-// let s = typeof d;
-// console.log(s);
+let d = 10;
+let s = typeof d;
+console.log(s);
 // console.log(typeof s);
 
 
