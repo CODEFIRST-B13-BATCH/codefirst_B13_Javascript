@@ -12,7 +12,9 @@ function outer() {
 }
 // outer();
 
-// 2 what is hoisting : we can use variable before its initialization (value update).
+// what is hoisting : we can use variable before its initialization (value update).
+/*what is hoisting : we can use variable before its initialization (value update).
+*/
 // console.log(test);
 // var test = 10;
 
