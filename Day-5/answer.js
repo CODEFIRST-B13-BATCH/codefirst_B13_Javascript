@@ -105,7 +105,7 @@ for ( i=0; i<populatedCountry.length; i++) {
     }
 }
 
-console.log(`largest populated country is ${populatedCountry.name}.`);
+console.log(`largest populated country is ${populatedCountry.population}.`);
 
 // with reduce method
 const populatedCountries = country.reduce((max, country) =>
