@@ -4,7 +4,7 @@ const arr  = [1, 2, 3, 4, 5];
 
 // Array Methods
 // 1. push() : add element at the end of the array
-arr.push(10);
+arr.push(6);
 console.log(arr); // [1, 2, 3, 4, 5, 6]
 
 // 2. pop() : remove element from the end of the array
@@ -87,3 +87,11 @@ const sum = num.reduce((acc, currentValue)=>{
     return acc + currentValue;
 },0);
 console.log(sum); // 15
+
+
+const team = ["India", "Australia", "England", "South Africa"];
+// const qualify = team.splice(1,2);
+// console.log(team);
+const t = team.join(", ");
+console.log(t);
+// console.log(team);
