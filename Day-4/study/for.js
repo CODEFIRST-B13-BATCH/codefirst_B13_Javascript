@@ -28,13 +28,18 @@ strFun(str);
 // }
 
 // for loop on string
-let x= '';
+let x= ' ';
 for (let value of str) {
     x= value+x;
 }
-console.log(x);
+console.log("for" ,x);
 
 // for loop on array
-for( i=0; i < arr.length; i++) {
-    console.log(arr[i] % 2 !== 0);
-}
+// for( i=0; i < arr.length; i++) {
+//     console.log(arr[i] % 2 !== 0);
+// }
+console.log(1+ '2' + 3);
+// console.log({} + {});
+console.log([] + []);
+
+
