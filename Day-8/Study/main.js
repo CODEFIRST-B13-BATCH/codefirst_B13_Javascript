@@ -1,4 +1,4 @@
-// storage;
+// local storage :if we close local storage data not remove it store permantly data
 
 
 const userInfo = {
@@ -16,8 +16,10 @@ localStorage.setItem("userInfo", JSON.stringify(userInfo)); // object to string
 const getUserInfo = localStorage.getItem("userInfo");
 console.log(JSON.parse(getUserInfo)); //  string to object
 
-// session storage
+// session storage: it store temporary data in storage
 sessionStorage.setItem("name","Codefirst123");
+
+//cookies:
 
 document.cookie = "username=CTS Pune; expires:Thur, 19 Feb  2026 09:45:39 UTC";
 

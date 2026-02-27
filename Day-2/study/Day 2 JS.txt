@@ -76,3 +76,21 @@
 		TypeOf
 		valueOf
 		Ternary operator
+
+
+		number + number → addition
+
+number + string → string
+
+number + array → array converts to string → string
+
+string + anything → string
+
+
+<!-- this value considered as false
+false
+0
+""
+null
+undefined
+NaN -->

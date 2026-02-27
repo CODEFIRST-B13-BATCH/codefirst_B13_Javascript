@@ -24,7 +24,7 @@ function div(a=5, b=2) {
 const z = div(6);
 console.log(z);
 
-// 5. function with rest parameters :
+// 5. function with rest parameters : it takes all extra values and put them inside one array.
 function sum(...numbers) {
     let total = 0;
     for (let num of numbers) {
@@ -65,7 +65,7 @@ fetchData(function(data) {
     console.log("Data received:", data);
 });
 
-// 10. impure function :
+// 10. impure function :every execution time output changes 
 function population() {
     return Math.random() * 1000; // returns a random population value each time
 }
