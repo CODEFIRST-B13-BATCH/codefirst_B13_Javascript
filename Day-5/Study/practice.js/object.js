@@ -67,10 +67,72 @@ console.log(car1)
 */
 
 
+
 //using object.assign({})
+/*
 let brand="MAHINDRA"
 let model=2025
 let purchaseYear=2026
 let color="orange"
 let car1=Object.assign({brand,model,purchaseYear,color})
 console.log(car1)
+*/
+
+/* 5
+let person={
+    name1:"harshit",
+    age:34,
+    hobbies:["listenTomusic","playing","swimming","reading"]
+}
+console.log(person.name1,person.hobbies[0])
+console.log(person.hobbies[0])
+*/  
+
+/* 6
+let array=[1,2,3,4,5]
+let sum=0
+for(let i=0;i<array.length;i++)
+{
+    sum=sum+array[i]
+}
+console.log(sum)
+*/
+
+/*
+let name1="TCS"
+let industry="INFORMATION TECHNOLOGY"
+let employees=[{name1:"ram",age:30},
+    {name2:"harr",age:21},
+    {name3:"harry",age:23}
+]
+let company=Object.assign({name1,industry,employees})
+console.log(company.name1)
+let firstName=console.log(company.employees[0])
+console.log(employees[0].name1)
+*/
+
+
+/*
+let person=new Object();
+person.name1="om"
+person.age=23
+person.hobbies=["play","swim","read"]
+console.log(person.name1,person.hobbies[0])
+*/
+
+let array=[{name1:"china",population:1.41,capital:"beijing"},
+    {name1:"USA",population:0.38,capital:"newyork"},
+    {name1:"India",population:1.45,capital:"Delhi"}
+]
+let largeValue=array[0]
+for(let i=0;i<array.length;i++)
+{
+    if(array[i].population>=largeValue.population)
+    {
+        largeValue=array[i]
+    }
+}
+console.log(largeValue.name1)
+
+
+  

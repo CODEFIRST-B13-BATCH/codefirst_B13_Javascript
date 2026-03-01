@@ -31,5 +31,4 @@ console.log(array.toString())      //output-----1,2,3,4,5,6,7,8,9,10
 array=[1,2,3,4,5,6,7,8,9,10]
 array.splice(3,2,10,50)
 console.log(array)      //output-----[1,2,3,10,50,6,7,8,9,10]
-
-// use of
+function sum()
