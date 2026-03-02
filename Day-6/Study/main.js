@@ -90,8 +90,8 @@ console.log(sum); // 15
 
 
 const team = ["India", "Australia", "England", "South Africa"];
-// const qualify = team.splice(1,2);
-// console.log(team);
-const t = team.join(", ");
-console.log(t);
+const qualify = team.splice(1,2);
+console.log(qualify);
+// const t = team.join(", ");
+// console.log(t);
 // console.log(team);

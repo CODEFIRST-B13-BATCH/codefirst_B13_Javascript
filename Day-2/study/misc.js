@@ -30,3 +30,6 @@ console.log(response);
 // } else {
 //     false;
 // }
+
+
+console.log({} == {});
