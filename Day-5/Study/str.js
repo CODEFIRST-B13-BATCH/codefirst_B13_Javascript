@@ -1,7 +1,14 @@
  let str = "India is my country";
 
-// String Methods
+// if(str.includes("India")) {
+//     console.log("The string contains the word 'India'.");
+// } else {
+//     console.log("The string does not contain the word 'India'.");
+// }
 
+// const isIndiaPresent = str.includes("India") ? 'India is present in the string' : 'India is not present in the string';
+// String Methods
+    
 // 1. length
 console.log(str.length);
 
@@ -20,20 +27,20 @@ console.log(str.indexOf("my")); // if not found it will return -1
 console.log(str.includes("my")); // returns boolean value (true or false)
 
 // 6. slice()
-console.log(str.slice(0, 6)); // returns a substring from index 0 to 4 (5 is not included)
+console.log("Slice==> ",str.slice(0, 7)); // returns a substring from index 0 to 4 (5 is not included)
 
 // 7. split()
 console.log(str.split(" ")); // splits the string into an array of substrings based on the specified separator (in this case, a space)
 
 // 8. replace()
-console.log(str.replace("India", "USA")); // replaces the first occurrence of the specified value with another value
+console.log(str.replaceAll("?", "")); // replaces the first occurrence of the specified value with another value
 
 // 9. trim()
 let str2 = "   Hello World!   ";
 console.log(str2.trim()); // removes whitespace from both ends of the string
 
 // 10. charAt()
-console.log(str.charAt(0)); // returns the character at the specified index (in this case, index 0 which is 'I')
+console.log("chatAt",str.charAt(2)); // returns the character at the specified index (in this case, index 0 which is 'I')
 
 // 11. search()
 console.log(str.search("country")); // returns the index of the first occurrence of the specified value (in this case, "country" starts at index 14)
