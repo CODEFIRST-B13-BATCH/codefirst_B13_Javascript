@@ -8,6 +8,8 @@ const userInfo = {
 }
 // local storage.
 localStorage.setItem("name","Codefirst");
+
+
 const getValue = localStorage.getItem("name");
 console.log(getValue);
 localStorage.removeItem("name");
