@@ -1,0 +1,12 @@
+List of Basic Types
+1. string : Represents text.
+2. number : Represents numeric values.
+3. boolean : Represents true/false values.
+4. array : Represents a collection of values.
+5. tuple : Represents a fixed-size array with specific types at each index.
+6. enum : Represents a set of named constants.
+7. any : Represents any type (avoids type checking).
+8. unknown : Represents a safer version of any .
+9. void : Represents no value or absence of return.
+10. null and undefined : Represent empty or uninitialized values.
+11. never : Represents values that never occur.
