@@ -1,0 +1,42 @@
+Typescript:
+
+TS: Original JS + ES6 + Some additional features.
+
+TypeScript is a programming language that adds extra features to JavaScript.
+It helps write more reliable code by letting you define what type of data
+(like numbers, strings, or objects) each part of your code should use.
+
+History of JS:
+
+JS was developed in 1995 by Brendan Eich.
+Earlier name of JS was Netscape.
+1997: JS starts to follow ECMA standards
+		ECMA: European Computer Manufacturer's Association
+		after this JS was know by ECMA Script 
+		shot form ES1
+		
+1998: ES2 version.
+1999: ES3
+2008: ES4
+2009: ES5
+2015: ES6 This major change in the JS.
+
+ES6 Features:
+1. Deafualt parameter:
+2. Template Literals.
+3. Arrow Function.
+4. let and const.
+5. spread or rest syntaxes
+6. Object.assign and Object.is
+7. Classes
+
+Let Var const:
+var : 
+redeclaration is possible 
+reassignment is possible.
+var is having functional scope.
+		
+
+1) install typescript first : npm i -g typescript
+2) tsc demo.ts
+3) node demo.jS
